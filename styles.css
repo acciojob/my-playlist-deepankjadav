@@ -14,3 +14,16 @@ div{
 li{
 	list-style-type: none;
 }
+.player_one {
+    padding: 15px;
+    border-radius: 10px; 
+    margin: 0 auto; /* This centers the .player_one div horizontally */
+    
+}
+.player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto; /* This centers the .player_two div */
+}
