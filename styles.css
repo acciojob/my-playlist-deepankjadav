@@ -15,11 +15,21 @@ li{
 	list-style-type: none;
 }
 .player_one {
+    background-color: rgb(255, 255, 255);
     padding: 15px;
-    border-radius: 10px; 
+    border-radius: 10px;
+    width: 600px; /* Set a fixed width for the container */
     margin: 0 auto; /* This centers the .player_one div horizontally */
-    
+    margin-bottom: 20px;
 }
+
+/* Set video to take full width of its container */
+.player_one video {
+    width: 100%; /* Make the video take full width of its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Audio player container styles */
 .player_two {
     background-color: rgb(255, 255, 255);
     padding: 15px;
